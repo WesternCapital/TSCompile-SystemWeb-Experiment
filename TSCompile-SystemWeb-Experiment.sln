@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSCompile-SystemWeb-Experiment", "TSCompile-SystemWeb-Experiment.csproj", "{426D54DF-FF95-4D1F-873B-3B289E9E4B97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSCompile-AspClassic", "TSCompile-AspClassic\TSCompile-AspClassic.csproj", "{5B105743-30B3-4804-B47F-D28E38416EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSCompile-SystemWeb-Experiment", "TSCompile-SystemWeb-Experiment\TSCompile-SystemWeb-Experiment.csproj", "{43B24376-5798-438B-9864-F0F49488B68C}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TSCompile-classlib", "TSCompile-classlib\TSCompile-classlib.fsproj", "{57BD2751-8243-4ABF-9D30-01DDD97661D7}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "TSCompile-classlib-net4", "TSCompile-classlib-net4\TSCompile-classlib-net4.fsproj", "{CF867223-8D03-42A3-9BE9-C90BEF7BED13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TSCompile-AspCore", "TSCompile-AspCore\TSCompile-AspCore.csproj", "{806A4831-EBD5-4025-90AA-8081D3D6067D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +19,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{426D54DF-FF95-4D1F-873B-3B289E9E4B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{426D54DF-FF95-4D1F-873B-3B289E9E4B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{426D54DF-FF95-4D1F-873B-3B289E9E4B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{426D54DF-FF95-4D1F-873B-3B289E9E4B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B105743-30B3-4804-B47F-D28E38416EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B105743-30B3-4804-B47F-D28E38416EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B105743-30B3-4804-B47F-D28E38416EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B105743-30B3-4804-B47F-D28E38416EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43B24376-5798-438B-9864-F0F49488B68C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43B24376-5798-438B-9864-F0F49488B68C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43B24376-5798-438B-9864-F0F49488B68C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43B24376-5798-438B-9864-F0F49488B68C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BD2751-8243-4ABF-9D30-01DDD97661D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BD2751-8243-4ABF-9D30-01DDD97661D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BD2751-8243-4ABF-9D30-01DDD97661D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BD2751-8243-4ABF-9D30-01DDD97661D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF867223-8D03-42A3-9BE9-C90BEF7BED13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF867223-8D03-42A3-9BE9-C90BEF7BED13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF867223-8D03-42A3-9BE9-C90BEF7BED13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF867223-8D03-42A3-9BE9-C90BEF7BED13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{806A4831-EBD5-4025-90AA-8081D3D6067D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{806A4831-EBD5-4025-90AA-8081D3D6067D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{806A4831-EBD5-4025-90AA-8081D3D6067D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{806A4831-EBD5-4025-90AA-8081D3D6067D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B85CB6DC-42A9-43BB-BEEB-880EA7427F4C}
 	EndGlobalSection
 EndGlobal

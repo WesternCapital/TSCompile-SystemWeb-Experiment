@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "noImplicitAny": false,
+    //"sourceMap": true,
+    "experimentalDecorators": true,
+    //"strictNullChecks": true,
+    //"emitDecoratorMetadata": true,
+    "removeComments": true,
+    //"strict": false,
+    "skipLibCheck": true
+    //"typeRoots": [ "./" ]
+  },
+  "compileOnSave": false,
+  "types": [],
+  "include": [
+    "**/*"
+  ],
+  //"include": [ "Views/Accessories" ],
+  "exclude": [
+    "node_modules",
+    "./node_modules/*",
+    "./node_modules",
+    "../node_modules",
+    "node_modules/",
+    "node_modules/*",
+    "*.d.ts",
+    "node_modules/@types/node/util.d.ts"
+  ]
+}

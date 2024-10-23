@@ -1,5 +1,4 @@
 {
-  "compileOnSave": true,
   "compilerOptions": {
     "target": "ES5",
     "noImplicitAny": false,
@@ -12,8 +11,11 @@
     "skipLibCheck": true
     //"typeRoots": [ "./" ]
   },
+  "compileOnSave": false,
   "types": [],
-  "include": [ "**/*" ],
+  "include": [
+    "**/*"
+  ],
   //"include": [ "Views/Accessories" ],
   "exclude": [
     "node_modules",

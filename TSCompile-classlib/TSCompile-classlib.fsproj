@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="tsconfig.json" />
+    <None Include="typescript.ts" />
+    <Compile Include="Library.fs" />
+    <None Include="*.js" />
+  </ItemGroup>
+
+  <ItemGroup />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.TypeScript.MSBuild" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
